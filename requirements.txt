@@ -1,0 +1,9 @@
+
+numpy
+pandas
+scikit-learn
+streamlit
+sastrawi
+regex
+pandas
+openpyxl
