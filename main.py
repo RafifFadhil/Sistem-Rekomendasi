@@ -1,10 +1,10 @@
 import streamlit as st 
 import pandas as pd 
 
-st.title("Sistem Rekomendasi Berita")
+#st.title("Sistem Rekomendasi Berita")
 
 article_df = pd.read_excel("article.xlsx")
-st.dataframe(article_df)
+#st.dataframe(article_df)
 
 #st.dataframe(novell_df.isnull().sum())
 article_df = article_df[article_df['content'].notnull()]
