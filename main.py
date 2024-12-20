@@ -64,7 +64,7 @@ def recommendations (content, top = 10):
    return recommended_article
 
 st.title("Sistem Rekomendasi Berita")
-article = st.text_input("Masukkan Judul Novel")
+article = st.text_input("Masukkan Judul Berita")
 rekomendasi = st.button("Rekomendasi")
 
 if rekomendasi:
